@@ -32,6 +32,7 @@
       <artifactId>fastjson</artifactId>
       <version>1.2.51</version>
     </dependency>
+
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
@@ -49,7 +50,7 @@
     </dependency>
 
 
-   <!-- json相关坐标3个-->
+   <!--&lt;!&ndash; json相关坐标3个&ndash;&gt;
     <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-core</artifactId>
@@ -66,7 +67,7 @@
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-annotations</artifactId>
     <version>2.9.0</version>
-    </dependency>
+    </dependency>-->
 
   </dependencies>
 

@@ -14,7 +14,6 @@
                 <property name="defaultCharset" value="UTF-8"></property>
             </bean>
         </mvc:message-converters>
-
     </mvc:annotation-driven>
 
     <!-- <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">

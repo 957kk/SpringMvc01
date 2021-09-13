@@ -1,3 +1,4 @@
+com\itheima\controller\JsonController.class
 domain\Address.class
 com\itheima\converter\MyDateConverter.class
 domain\User.class
