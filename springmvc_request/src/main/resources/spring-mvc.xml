@@ -8,7 +8,9 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:component-scan base-package="com.itheima"/>
-    <mvc:annotation-driven/>
+    <mvc:annotation-driven>
+
+    </mvc:annotation-driven>
 
     <!-- <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
          <property name="messageConverters">
@@ -19,10 +21,10 @@
      </bean>-->
 
 
-      <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-          <property name="prefix" value="/WEB-INF/page/"/>
-          <property name="suffix" value=".jsp"/>
-      </bean>
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/page/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
 
     <!--    自定义格式转换器案例，配合不带@DateTimeFormat的requestParam11使用-->
     <!--    自定义格式转换器案例，配合不带@DateTimeFormat的requestParam11使用-->
